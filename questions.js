@@ -1,13 +1,13 @@
 var questions = [
     {
-      title: "Commonly used data types DO NOT include:",
-      choices: ["strings", "booleans", "alerts", "numbers"],
-      answer: "alerts"
+      title: "Which event occurs when the user clicks on an HTML element?",
+      choices: ["onclick","onchange","onmouseover","onmouseclick"],
+      answer: "onclick"
     },
     {
-      title: "The condition in an if / else statement is enclosed within ____.",
-      choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
-      answer: "parentheses"
+      title: "How do you declare a JavaScript variable?",
+      choices: ["var carName;", "v carName;", "variable carName;"],
+      answer: "var carName;"
     },
     {
       title: "Inside which HTML element do we put the Javascript",
@@ -25,4 +25,17 @@ var questions = [
       answer: "while (i <= 10)"
     }
   ];
+
+function buildquiz() {
+  document.getElementById('start').style.visibility = "hidden"
+  const output = [];
+  questions.forEach((currentQuestion, questionNumber) => {
+    const answers = [];
+  }
+  )
+}
+
+document.getElementById('quiz').addEventListener('click',buildquiz);
+
+
   

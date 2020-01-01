@@ -1,8 +1,20 @@
-div {
+.quiz {
     text-align: center;
+    margin: auto;
+    padding: 30px;
 }
 button {
     border-radius: 12px;
     background-color: seagreen;
     color: white;
+}
+#countdown {
+    float: right;
+    font-size: small;
+    margin: auto;
+}
+#highscores {
+    float: left;
+    font-size: small;
+    margin: auto;
 }

@@ -26,16 +26,7 @@ var questions = [
     }
   ];
 
-function buildquiz() {
-  document.getElementById('start').style.visibility = "hidden"
-  const output = [];
-  questions.forEach((currentQuestion, questionNumber) => {
-    const answers = [];
-  }
-  )
-}
 
-document.getElementById('quiz').addEventListener('click',buildquiz);
 
 
   

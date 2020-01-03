@@ -11,10 +11,12 @@ button {
 #countdown {
     float: right;
     font-size: small;
-    margin: auto;
+    margin: 25px;
+    padding: 10px;
 }
 #highscores {
     float: left;
     font-size: small;
-    margin: auto;
+    margin: 25px;
+    padding: 10px;
 }

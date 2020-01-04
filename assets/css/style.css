@@ -1,4 +1,4 @@
-.quiz {
+.quizContainer {
     text-align: center;
     margin: auto;
     padding: 30px;
@@ -12,11 +12,9 @@ button {
     float: right;
     font-size: small;
     margin: 25px;
-    padding: 10px;
 }
 #highscores {
     float: left;
     font-size: small;
     margin: 25px;
-    padding: 10px;
 }

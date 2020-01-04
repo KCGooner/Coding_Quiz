@@ -1,4 +1,4 @@
-.quizContainer {
+#container {
     text-align: center;
     margin: auto;
     padding: 30px;
@@ -11,10 +11,18 @@ button {
 #countdown {
     float: right;
     font-size: small;
-    margin: 25px;
+    margin: 15px;
 }
 #highscores {
     float: left;
     font-size: small;
-    margin: 25px;
+    margin: 15px;
+}
+body {
+    text-align: center;
+}
+h1 {
+    padding-top: 20px;
+    margin-top: auto;
+    line-height: 3;
 }

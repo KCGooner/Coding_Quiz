@@ -6,15 +6,8 @@ var currentQuestion = 0;
 
 startBtn.addEventListener('click', startQuiz);
 
-function quizQuestion(title, choices, answer) {
-    this.title = title;
-    this.choices = choices;
-    this.answer = answer;
-    console.log();
-}
-
 function startQuiz(questions) {
-    
+    console.log("hello?")
 };
 
 

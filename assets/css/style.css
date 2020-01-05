@@ -26,3 +26,8 @@ h1 {
     margin-top: auto;
     line-height: 3;
 }
+#quizIntro {
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+}

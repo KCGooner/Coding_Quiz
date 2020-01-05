@@ -6,28 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <title>Coding Quiz!</title>
 </head>
 
 <body>
+    <div>
+        <h2 id="countdown">Time Left: </h2>
+        <h2 id="highscores">View Highscores</h2>
+    </div>
 
-    <h2 id="countdown">Time Left: </h2>
-    <h2 id="highscores">View Highscores</h2>
+    <div id="quizIntro">
+        <h1>Coding Quiz!</h1>
 
-    <h1>Coding Quiz!</h1>
-
-    <p>This quiz will test your knowledge and skills of coding! Once Start is clicked the timer will begin to
-        countdown
-        and you will need to answer the questions as quicky and correctly to get the high score! Good luck!
-    </p>
-
-    <div id="results"></div>
-    <button id="start" type="button">Start Quiz</button>
+        <p>This quiz will test your knowledge and skills of coding! Once Start is clicked the timer will begin to
+            countdown
+            and you will need to answer the questions as quicky and correctly to get the high score! Good luck!
+        </p>
+        <button id="start" type="button">Start Quiz</button>
+    </div>
 
     <div id="quizContainer"></div>
 
     <script src="./assets/js/questions.js"></script>
     <script src="./assets/js/logic.js"></script>
+
 </body>
 
 </html>

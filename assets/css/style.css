@@ -1,33 +1,49 @@
-#container {
+#quizIntro{
     text-align: center;
     margin: auto;
     padding: 30px;
-}
-button {
-    border-radius: 12px;
-    background-color: seagreen;
-    color: white;
-}
-#countdown {
-    float: right;
-    font-size: small;
-    margin: 15px;
-}
-#highscores {
-    float: left;
-    font-size: small;
-    margin: 15px;
-}
-body {
-    text-align: center;
-}
-h1 {
-    padding-top: 20px;
-    margin-top: auto;
-    line-height: 3;
-}
-#quizIntro {
-    margin: auto;
-    padding: 30px;
-    text-align: center;
-}
+    
+    }
+    
+    button{
+        border-radius: 12px;
+        background-color: grey;
+        color: white;
+        margin: auto;
+        
+    }
+    
+    #countdown{
+        float: right;
+        font-size: small;
+        margin: 25px;
+    
+    }
+    
+    #highscores{
+        float: left;
+        font-size: small;
+        margin: 25px;
+    
+    }
+    
+    body{
+        text-align: center;
+    }
+    
+    h1{
+        padding-top: 20px;
+        margin-top: auto;
+        line-height: 3;
+    }
+    
+    p{
+       font-size: 30px; 
+    }
+    
+    #start{
+        height: 150px;
+        width: 250px;
+        background-color: green;
+        font-size: x-large;
+    }

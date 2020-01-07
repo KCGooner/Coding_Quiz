@@ -10,9 +10,9 @@ var questions = [
       answer: "var carName;"
     },
     {
-      title: "Inside which HTML element do we put the Javascript",
-      choices: ["<js>", "<script>", "<scripting>", "<javascript>"],
-      answer: "<script>"
+      title: "How can you add a comment in a JavScript?",
+      choices: ["'This is a comment", "//this is a comment", "!--This is a comment"],
+      answer: "//this is a comment"
     },
     {
       title: "How do you create a function in Javascript?",
@@ -25,8 +25,3 @@ var questions = [
       answer: "while (i <= 10)"
     }
   ];
-
-
-
-
-  
